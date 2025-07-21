@@ -1,0 +1,32 @@
+{
+  "name": "terminal",
+  "version": "2025.7.21",
+  "description": "Web-based terminal emulator",
+  "author": "Yuriusu",
+  "license": "MIT",
+  "homepage": "https://github.com/yuriusudev/terminal",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuriusudev/terminal.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yuriusudev/terminal/issues"
+  },
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server",
+    "build": "node server build",
+    "serve": "node server serve"
+  },
+  "dependencies": {
+    "@xterm/addon-fit": "^0.10.0",
+    "@xterm/addon-web-links": "^0.11.0",
+    "@xterm/addon-webgl": "^0.18.0",
+    "@xterm/xterm": "^5.5.0",
+    "node-pty": "^1.0.0",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "vite": "^7.0.5"
+  }
+}
